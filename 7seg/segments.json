@@ -1,0 +1,43 @@
+{
+   "segments": [
+      {"posx":580, "posy":55, "output":0},
+      {"posx":620, "posy":120, "output":1},
+      {"posx":616, "posy":223, "output":2},
+      {"posx":573, "posy":281, "output":3},
+      {"posx":514, "posy":235, "output":4},
+      {"posx":515, "posy":120, "output":5},
+      {"posx":546, "posy":174, "output":6},
+
+      {"posx":440, "posy":53, "output":7},
+      {"posx":480, "posy":102, "output":8},
+      {"posx":480, "posy":230, "output":9},
+      {"posx":450, "posy":280, "output":10},
+      {"posx":390, "posy":220, "output":11},
+      {"posx":390, "posy":90, "output":12},
+      {"posx":440, "posy":170, "output":13},
+
+      {"posx":260, "posy":50, "output":14},
+      {"posx":300, "posy":90, "output":15},
+      {"posx":305, "posy":220, "output":16},
+      {"posx":255, "posy":285, "output":17},
+      {"posx":210, "posy":220, "output":18},
+      {"posx":200, "posy":80, "output":19},
+      {"posx":260, "posy":170, "output":20},
+
+      {"posx":120, "posy":50, "output":21},
+      {"posx":170, "posy":90, "output":22},
+      {"posx":170, "posy":220, "output":23},
+      {"posx":130, "posy":280, "output":24},
+      {"posx":75, "posy":240, "output":25},
+      {"posx":67, "posy":100, "output":26},
+      {"posx":130, "posy":170, "output":27},
+
+      {"posx":345, "posy":108, "output":28},
+      {"posx":350, "posy":220, "output":29}
+
+   ],
+   "inputs":[
+      {"key":"a", "input":0},
+      {"key":"r", "input":1}
+   ]
+}

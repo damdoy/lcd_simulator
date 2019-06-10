@@ -1,0 +1,3 @@
+build/
+verilator_output/
+lcd_simulator
