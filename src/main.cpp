@@ -94,6 +94,8 @@ int main( int argc, char **argv )
       }
    }
 
+   //simulated verilog module
+   //output of verilator
    Vtop vtop;
 
    //main simulation loop

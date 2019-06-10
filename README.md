@@ -14,9 +14,9 @@ This tool works by using three file:
 | top.v           |                |               | segments  |                  |     |           |
 | - clk           |  verilator     |  Vtop.cpp     +----------->  Simulation      |     |           |
 | | 16 inputs     +--------------->+               |           |  loop            +-----+ gui       |
-| - 256 outputs   |                |               |clk, inputs|                  |     |           |
-|                 |                |               <-----------+                  |     |           |
-|                 |                |               |           |                  |     |           |
+| - 256 outputs   |                | contains      |clk, inputs|                  |     |           |
+|                 |                | behaviour of  <-----------+                  |     |           |
+|                 |                | top.v         |           |                  |     |           |
 +---+-------------+                +---------------+           +--------+---------+     +-----+-----+
     ^                                                                   |                     |
     |                                                          +--------+---------+           |
