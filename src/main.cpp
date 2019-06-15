@@ -34,18 +34,18 @@ void simulation_loop(Displayer *displayer, std::vector<Segment> *lst_seg, Vtop *
       vtop->inputs = displayer->get_inputs();
       vtop->eval();
       uint *out_seg = vtop->out_seg;
-      uint segments = out_seg[0];
 
       //update the segments on screen
       for (size_t i = 0; i < lst_seg->size(); i++)
       {
+         uint segments = out_seg[i/32];//since there are 256 segments, verilator returns an array of 32bits words
          if(lst_seg->at(i).is_init) //only segments initialized ==> in the json
          {
             lst_seg->at(i).activate(segments&(1<<i));
          }
       }
       displayer->draw();
-      usleep(1000); //~1KHz
+      usleep(500); //~2KHz
    }
 }
 
@@ -82,7 +82,13 @@ int main( int argc, char **argv )
    std::vector<char> lst_inputs(max_nb_inputs);
 
    std::string json_path = folder_name+"/segments.json";
-   read_json(json_path.c_str(), &sg, &lst_seg, &lst_inputs);
+   bool is_json_correct = read_json(json_path.c_str(), &sg, &lst_seg, &lst_inputs);
+
+   if(!is_json_correct)
+   {
+      printf("malformed json file\n");
+      return 1;
+   }
 
    displayer.set_input_map(lst_inputs);
 

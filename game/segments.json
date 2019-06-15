@@ -1,0 +1,55 @@
+{
+   "segments": [
+      {"posx":90, "posy":90, "output":0},
+      {"posx":90, "posy":175, "output":1},
+      {"posx":90, "posy":260, "output":2},
+      {"posx":95, "posy":340, "output":3},
+      {"posx":90, "posy":430, "output":4},
+      {"posx":220, "posy":90, "output":5},
+      {"posx":215, "posy":165, "output":6},
+      {"posx":215, "posy":250, "output":7},
+      {"posx":215, "posy":330, "output":8},
+      {"posx":215, "posy":415, "output":9},
+      {"posx":345, "posy":90, "output":10},
+      {"posx":345, "posy":160, "output":11},
+      {"posx":340, "posy":240, "output":12},
+      {"posx":340, "posy":330, "output":13},
+      {"posx":340, "posy":410, "output":14},
+      {"posx":460, "posy":90, "output":15},
+      {"posx":460, "posy":160, "output":16},
+      {"posx":450, "posy":240, "output":17},
+      {"posx":450, "posy":320, "output":18},
+      {"posx":450, "posy":410, "output":19},
+      {"posx":600, "posy":90, "output":20},
+      {"posx":590, "posy":160, "output":21},
+      {"posx":590, "posy":240, "output":22},
+      {"posx":590, "posy":320, "output":23},
+      {"posx":580, "posy":420, "output":24},
+
+      {"posx":90, "posy":540, "output":25},
+      {"posx":230, "posy":530, "output":26},
+      {"posx":350, "posy":530, "output":27},
+      {"posx":460, "posy":520, "output":28},
+      {"posx":580, "posy":510, "output":29},
+
+      {"posx":780, "posy":86, "output":30},
+      {"posx":790, "posy":110, "output":31},
+      {"posx":790, "posy":150, "output":32},
+      {"posx":770, "posy":175, "output":33},
+      {"posx":748, "posy":150, "output":34},
+      {"posx":748, "posy":111, "output":35},
+      {"posx":770, "posy":133, "output":36},
+
+      {"posx":695, "posy":87, "output":37},
+      {"posx":720, "posy":110, "output":38},
+      {"posx":715, "posy":153, "output":39},
+      {"posx":690, "posy":183, "output":40},
+      {"posx":670, "posy":160, "output":41},
+      {"posx":670, "posy":110, "output":42},
+      {"posx":690, "posy":133, "output":43}
+   ],
+   "inputs":[
+      {"key":"a", "input":1},
+      {"key":"d", "input":2}
+   ]
+}

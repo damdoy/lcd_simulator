@@ -52,9 +52,14 @@ The json also contains a list of inputs in the form of:
 `{"key":"a", "input":0}`
 it has a similar definition as the segments, it tells that when the user presses the key 'a' the bit 0 of the 16bit input to the module will be 1.
 
-In the 7seg example, four counters are incremented each clock to be displayed on each of the four 7segments in the `7seg/segments.png` file.
+In the `7seg` example, four counters are incremented each clock to be displayed on each of the four 7segments in the `7seg/segments.png` file.
 
 ![7seg examples](screenshots/7seg_example.png)
+
+The `game` example, has a similar feel to classic game and watch games, where the goal is to catch falling balls with a basket. Balls fall faster as the game goes on and there will be multiple one as the game progresses.
+'a' and 'd' on the keyboard will move the basket.
+
+![game example](screenshots/ball_example.png)
 
 ## How to build
 
